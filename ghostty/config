@@ -1,0 +1,50 @@
+# Font configuration
+font-family = "MesloLGM Nerd Font Mono"
+font-thicken=true
+font-thicken-strength=40
+font-size = 13
+adjust-cell-width = -10%
+
+# Colors - Primary
+background = #0a0c0f
+foreground = #b2b2b2
+
+# Colors - Normal
+palette = 0=#060606
+palette = 1=#b21818
+palette = 2=#18b218
+palette = 3=#b26818
+palette = 4=#1452d8
+palette = 5=#b218b2
+palette = 6=#18b2b2
+palette = 7=#b2b2b2
+
+# Colors - Bright
+palette = 8=#686868
+palette = 9=#ff5454
+palette = 10=#54ff54
+palette = 11=#ffff54
+palette = 12=#5454ff
+palette = 13=#ff54ff
+palette = 14=#54ffff
+palette = 15=#ffffff
+
+# Cursor
+cursor-style = block
+cursor-style-blink = false
+
+# Shell
+shell-integration = detect
+shell-integration-features = no-cursor
+command = /opt/homebrew/bin/tmux new-session -A
+# Make ghostty rely on tmux for scrollback history
+scrollback-limit = 0
+
+# Other random things
+link-previews = true
+maximize = true
+
+# macOS specific
+macos-option-as-alt = true
+
+keybind = unconsumed:ctrl+l=clear_screen
